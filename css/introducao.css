@@ -1,0 +1,36 @@
+.introducao {
+  max-width: 75rem;
+  padding: 3rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 6.25rem;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+}
+.introducao p {
+  color: #525252;
+}
+
+@media (max-width: 930px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  img {
+    width: 250px;
+  }
+}
