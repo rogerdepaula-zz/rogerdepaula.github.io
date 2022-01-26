@@ -2,4 +2,4 @@
 
 Projeto de portfólio/curriculo, utilizando métodos de HTML e CSS
 
-<a href="rogerdepaula.github.io.git">Link</a>
+<p>Acessar o portfólio clicando <a href="http://rogerdepaula.github.io" target="_blank"> Aqui</a></p>
